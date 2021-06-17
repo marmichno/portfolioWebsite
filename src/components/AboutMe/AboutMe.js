@@ -1,15 +1,12 @@
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
-import {useAnimation} from 'framer-motion';
 
 export const AboutMe = () => {
 
-    const {ref, inView, skip} = useInView({
+    const {ref, inView} = useInView({
         threshold: 0.5,
         triggerOnce:true
     });
-    
-    const animation = useAnimation();
 
     const container = {
         hidden: { opacity: 0, y: '20vh' },

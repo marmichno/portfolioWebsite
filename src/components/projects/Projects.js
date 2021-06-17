@@ -1,6 +1,5 @@
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
-import {useAnimation} from 'framer-motion';
 
 import photographer from '../../resources/projects/photographerWebsite.JPG';
 import flashcards from '../../resources/projects/flashcards.JPG';
@@ -10,13 +9,11 @@ import foodOrdering from '../../resources/projects/foodordering.JPG';
 
 export const Projects = () => {
 
-    const {ref, inView, skip} = useInView({
-        threshold: 1,
+    const {ref, inView} = useInView({
+        threshold: 0.1,
         triggerOnce:true
     });
     
-    const animation = useAnimation();
-
     const container = {
         hidden: {},
         show: {
@@ -46,12 +43,12 @@ export const Projects = () => {
     return(
         <section className="projects">
             <motion.h1
-            ref={ref}
             variants={headerFromBottom}
             initial="hidden"
             animate={inView ? "show" : "hidden"}
             >My latest projects</motion.h1>
             <motion.div
+            ref={ref}
             variants={container}
             initial="hidden"
             animate={inView ? "show" : "hidden"}

@@ -7,9 +7,10 @@
     .content{
         @include flexCenter();
         flex-direction:column;
+        text-align:center;
 
         @media (max-width:750px){
-            width:85%;
+            width:90%;
         }
 
         h1{

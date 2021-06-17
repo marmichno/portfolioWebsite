@@ -1,17 +1,6 @@
-import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
-import {useAnimation} from 'framer-motion';
-import {SplitText} from './SplitText';
-import {useState} from 'react';
 
 export const HeroSection = () => {
-
-    console.log(useState);
-
-    const {ref, inView} = useInView({
-        threshold: 1,
-        triggerOnce:true
-    });
 
     const container = {
         hidden: {},
@@ -21,8 +10,6 @@ export const HeroSection = () => {
           }
        }
     }
-
-    const animation = useAnimation();
 
     const bottomContent = { 
         hidden: { opacity: 0, y:"10vh"},

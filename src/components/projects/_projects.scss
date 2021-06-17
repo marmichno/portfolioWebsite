@@ -3,12 +3,14 @@
     flex-direction:column;
     height:200vh;
     min-height:1000px;
+    text-align:center;
 
     h1{
         margin-bottom:0.2em;
 
         @media (max-width:750px){
             margin-bottom:1em;
+            width:90%;
         }
     }
 
@@ -19,7 +21,7 @@
         height:90%;
 
         @media (max-width:750px){
-            width:90%;
+            width:100%;
             justify-content:flex-start;
         }
 
@@ -44,8 +46,9 @@
             .image{
                 width:40%;
                 background-size:contain;
+                object-fit:contain;
                 background-repeat:no-repeat;
-                background-position:right;
+                background-position:center;
                 height:100%;
 
                 @media (max-width:750px){

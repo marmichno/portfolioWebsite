@@ -1,15 +1,12 @@
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
-import {useAnimation} from 'framer-motion';
 
 export const MySkills = () =>{
 
-    const {ref, inView, skip} = useInView({
+    const {ref, inView} = useInView({
         threshold: 1,
         triggerOnce:true
     });
-    
-    const animation = useAnimation();
 
     const container = {
         hidden: { opacity: 0, y: '20vh' },
@@ -31,7 +28,7 @@ export const MySkills = () =>{
             class="content">
                 <h1>Things i know</h1>
                 <p>- how to build modern web application</p>
-                <p>- make it responsive for all resolutions and devices</p>
+                <p>- make it responsive for all devices</p>
                 <p ref={ref}>- connect it to backend</p>
                 <p>- write end to end, unit and integration tests</p>
                 <p>- deploy it to a live server</p>

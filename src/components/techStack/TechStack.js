@@ -8,11 +8,10 @@ import {SiPostman} from 'react-icons/si';
 import {SiJest} from 'react-icons/si';
 import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
-import {useAnimation} from 'framer-motion';
 
 export const TechStack = () => {
 
-    const {ref, inView, skip} = useInView({
+    const {ref, inView} = useInView({
         threshold: 1,
         triggerOnce:true
     });
@@ -36,8 +35,6 @@ export const TechStack = () => {
         hidden: { opacity: 0, y:"20vh"},
         show: {opacity: 1, y:0, transition: { duration: 1}}
       }
-
-    const animation = useAnimation();
 
     return(
         <section class="techStack">

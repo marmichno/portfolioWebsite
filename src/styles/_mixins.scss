@@ -1,0 +1,17 @@
+@mixin flexCenter{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+@mixin button{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    color:white;
+    background-color:transparent;
+    border:1px solid;
+    cursor:pointer;
+    outline:none;
+}

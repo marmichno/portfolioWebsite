@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+}
+
+html{
+    font-size:17px;
+}
+
+@media screen and (max-width:1475px){
+    html{
+        font-size:15px;
+    }
+}
+@media screen and (max-width:900px){
+    html{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:600px){
+    html{
+        font-size:11px;
+    }
+}
+
+@media screen and (max-width:500px){
+    html{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-height:400px){
+    html{
+        font-size:11px;
+    }
+}
+
+
+body{
+    overflow:hidden;
+    overflow-y:scroll;
+}
+
+.react-icons{
+    width:5em;
+    height:5em;
+}
+
+section{
+    width:100vw;
+    height:100vh;
+    min-height:600px;
+    overflow:hidden;
+    background-color:rgb(13, 8, 30);
+}
+
+//Typography
+
+h1{
+    font-size:4rem;
+    letter-spacing:0.1rem;
+    font-family: 'Tenor Sans';
+    color:white;
+}
+
+h2{
+    font-size:2rem;
+    letter-spacing:0.1rem;
+    font-family: 'Tenor Sans';
+    color:white;
+}
+
+p{
+    font-size:1.7rem;
+    color:white;
+}
+
+button{
+    font-size:1.2rem;
+    font-weight:300;
+}

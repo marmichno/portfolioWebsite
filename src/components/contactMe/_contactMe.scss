@@ -1,0 +1,39 @@
+.contactMe{
+    @include flexCenter();
+    flex-direction:column;
+    height:100vh;
+    min-height:400px;
+
+    @media (max-width:750px){
+        height:50vh;
+    }
+
+    h1{
+        margin-bottom:2rem;
+    }
+
+
+    .content{
+        @include flexCenter();
+        width:100%;
+        height:15.5%;
+        flex-direction:column;
+
+        @media (max-width:750px){
+            width:80%;
+            text-align:center;
+        }
+
+        div{
+            @include flexCenter();
+            width:100%;
+            height:50%;
+    
+            .react-icons{
+                width:2.5em;
+                height:2.5em;
+                margin-right:2rem;
+            }
+        }
+    }
+}

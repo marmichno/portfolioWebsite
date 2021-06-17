@@ -1,0 +1,63 @@
+.techStack{
+    @include flexCenter();
+    flex-direction:column;
+    text-align:center;
+    min-height:700px;
+    height:150vh;
+
+    h1{
+        margin-bottom:0.2em;
+
+        
+        @media screen and (max-width:500px){
+            width:90%;
+        }
+    }
+
+
+    .tech{
+        width:40%;
+        height:40%;
+        display:grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows:repeat(3, 1fr);
+
+        @media screen and (max-width:1320px){
+            width:50%;
+        }
+
+        @media screen and (max-width:1090px){
+            width:60%;
+        }
+
+        @media screen and (max-width:780px){
+            width:70%;
+        }
+
+        @media screen and (max-width:617px){
+            width:80%;
+        }
+
+        @media screen and (max-width:499px){
+            width:90%;
+        }
+
+        div{
+            flex-direction:column;
+            @include flexCenter();
+
+            .react-icons{
+                width:4em;
+                height:4em;
+                margin-bottom:1rem;
+            }
+
+            @media screen and (max-width:500px){
+                .react-icons{
+                    width:5em;
+                    height:5em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.hero{
+    @include flexCenter();
+    height:100vh;
+    background-image:url("../../resources/background.jpg");
+    background-position:center;
+    background-size:cover;
+    min-height:400px;
+
+    .content{
+        @include flexCenter();
+        flex-direction:column;
+        width:70%;
+        height:50%;
+        text-align:center;
+
+        h1{
+            @media (max-width:750px){
+                margin-bottom:0.5em;
+            }
+        }
+
+        @media screen and (max-width:525px){
+            width:80%;
+        }
+
+        @media (max-width:750px){
+            width:80%;
+        }
+
+        p{
+            max-width:650px;
+            margin:0.2rem;
+        }
+        
+        .buttons{
+            height:20%;
+            @include flexCenter();
+
+            button{
+                margin:0.2rem;
+                @include button();
+                color:white;
+            }
+        }
+    }
+}

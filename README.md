@@ -3,7 +3,7 @@
 
 ## About project
 
-My own personal portfolio website with few details about my self. ** CURRENTLY IN PROGRESS **
+My own personal portfolio website with few details about my self.
 
 ## Tech
 

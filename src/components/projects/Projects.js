@@ -59,7 +59,7 @@ export const Projects = () => {
                         <h2>Food Ordering App</h2>
                         <p>landing page for restaurant with cms</p>
                         <div class="buttons">
-                            <button>Github</button>
+                            <a href="https://github.com/marmichno/foodOrdering" target="_blank"><button>Github</button></a>
                             <button>Live preview</button>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ export const Projects = () => {
                     <h2>Hearthstone deck builder</h2>
                     <p>deck builder with packs opening simulator</p>
                     <div class="buttons">
-                        <button>Github</button>
+                        <a href="https://github.com/marmichno/hearthstoneAPI" target="_blank"><button>Github</button></a>
                         <button>Live preview</button>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export const Projects = () => {
                     <h2>Flashcards app</h2>
                     <p>creating custom flashcards and learning using them</p>
                     <div class="buttons">
-                        <button>Github</button>
+                        <a href="https://github.com/marmichno/flashcards" target="_blank"><button>Github</button></a>
                         <button>Live preview</button>
                     </div>
                 </div>
@@ -92,8 +92,8 @@ export const Projects = () => {
                     <h2>Photographer website</h2>
                     <p>simple landing page for photographer</p>
                     <div class="buttons">
-                        <button>Github</button>
-                        <button>Live preview</button>
+                        <a href="https://github.com/marmichno/photographerWebsite" target="_blank"><button>Github</button></a>
+                        <a href="https://marmichno.github.io/photographerWebsite/" target="_blank"><button>Live preview</button></a>
                     </div>
                 </div>
                 </motion.div>

@@ -1,4 +1,5 @@
 import {motion} from 'framer-motion';
+import swag from '../../'
 
 export const HeroSection = () => {
 
@@ -25,8 +26,10 @@ export const HeroSection = () => {
             className="content">
                 <motion.h1 variants={bottomContent}>Hello, my name is Marcin</motion.h1>
                 <motion.p variants={bottomContent}>Im a self taught front end developer who enjoyes to create unforgetful user experience.</motion.p>
-                <motion.div variants={bottomContent} class="buttons">
-                    <button>Contact me</button><button>Resume</button><button>Github profile</button>
+                <motion.div variants={bottomContent} className="buttons">
+                    <a href="#contactMe"><button>Contact me</button></a>
+                    <a href="/CV_Marcin_Michno.pdf" download="CV_Marcin_Michno"><button>Resume</button></a>
+                    <a href="https://github.com/marmichno" target="_blank"><button>Github profile</button></a>
                 </motion.div>
             </motion.div>
         </section>

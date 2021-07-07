@@ -29,6 +29,7 @@ export const ContactMe = () => {
             initial="hidden"
             animate={inView ? "show" : "hidden"}
             class="content"
+            id="contactMe"
             >
                 <h1 ref={ref}>Lets get in touch</h1>
                 <div>

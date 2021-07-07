@@ -57,7 +57,6 @@ export const TechStack = () => {
                 <motion.div variants={item} style={{color:"#764ABC"}}><SiRedux></SiRedux><p>redux</p></motion.div>
                 <motion.div variants={item} style={{color:"#FD6C35"}}><SiPostman></SiPostman><p>postman</p></motion.div>
                 <motion.div variants={item} style={{color:"#99425B"}}><SiJest></SiJest><p>jest</p></motion.div>
-                <motion.div variants={item}><p>cypress</p></motion.div>
             </motion.div>
         </section>
     )

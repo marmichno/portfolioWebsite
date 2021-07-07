@@ -5,6 +5,7 @@ import photographer from '../../resources/projects/photographerWebsite.JPG';
 import flashcards from '../../resources/projects/flashcards.JPG';
 import hearthstone from '../../resources/projects/hearthstone.JPG';
 import foodOrdering from '../../resources/projects/foodordering.JPG';
+import carCustomization from '../../resources/projects/carCustomization.JPG'
 
 
 export const Projects = () => {
@@ -53,6 +54,17 @@ export const Projects = () => {
             initial="hidden"
             animate={inView ? "show" : "hidden"}
             className="projectsShowcase">
+                <motion.div variants={itemRight} className="project">
+                <div style={{ backgroundImage: `url('${carCustomization}')`}} className="image"></div>
+                <div className="description">
+                    <h2>Car customizaton</h2>
+                    <p>car configuration width 3d models</p>
+                    <div class="buttons">
+                        <a href="https://github.com/marmichno/carCustomization" target="_blank"><button>Github</button></a>
+                        <button>Live preview</button>
+                    </div>
+                </div>
+                </motion.div>
                 <motion.div variants={itemLeft} className="project">
                     <div style={{ backgroundImage: `url('${foodOrdering}')`}} className="image"></div>
                     <div className="description">

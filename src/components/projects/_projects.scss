@@ -1,9 +1,8 @@
 .projects{
     @include flexCenter();
     flex-direction:column;
-    height:200vh;
-    min-height:1000px;
     text-align:center;
+    height:100%;
 
     h1{
         margin-bottom:0.2em;
@@ -35,9 +34,10 @@
 
         .project{
             @include flexCenter();
-            height:20%;
+            height:30vh;
             width:100%;
             margin-bottom:5%;
+            min-height:200px;
 
             @media (max-width:750px){
                 flex-direction:column;

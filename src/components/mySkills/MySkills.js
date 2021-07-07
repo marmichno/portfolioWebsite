@@ -30,7 +30,7 @@ export const MySkills = () =>{
                 <p>- how to build modern web application</p>
                 <p>- make it responsive for all devices</p>
                 <p ref={ref}>- connect it to backend</p>
-                <p>- write unit test</p>
+                <p>- write unit tests</p>
                 <p>- deploy it to a live server</p>
             </motion.div>
         </section>

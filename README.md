@@ -6,6 +6,8 @@
 
 My own personal portfolio website with few details about my self. <br>
 Link to website: https://marmichno.github.io/portfolioWebsite/
+<br>
+**for now some links may not work since im working on uploading projects to live server**
 
 ## Tech
 

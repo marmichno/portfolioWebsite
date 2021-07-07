@@ -28,7 +28,7 @@ export const HeroSection = () => {
                 <motion.p variants={bottomContent}>Im a self taught front end developer who enjoyes to create unforgetful user experience.</motion.p>
                 <motion.div variants={bottomContent} className="buttons">
                     <a href="#contactMe"><button>Contact me</button></a>
-                    <a href="/CV_Marcin_Michno.pdf" download="CV_Marcin_Michno"><button>Resume</button></a>
+                    <a href="https://marmichno.github.io/portfolioWebsite/CV_Marcin_Michno.pdf" download="CV_Marcin_Michno"><button>Resume</button></a>
                     <a href="https://github.com/marmichno" target="_blank"><button>Github profile</button></a>
                 </motion.div>
             </motion.div>

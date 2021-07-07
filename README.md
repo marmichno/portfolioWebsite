@@ -4,7 +4,8 @@
 
 ## About project
 
-My own personal portfolio website with few details about my self.
+My own personal portfolio website with few details about my self. <br>
+Link to website: https://marmichno.github.io/portfolioWebsite/
 
 ## Tech
 
